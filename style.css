@@ -1,0 +1,152 @@
+/*general*/
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: white;
+    color: black;
+}
+/*header*/
+header{
+    background: darkblue;
+    color: white;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header h1{ 
+    margin: 0;
+}
+nav a{ 
+    color: white;
+    text-decoration: none;
+    margin: 0 12px;
+    font-weight: bold;
+}
+nav a:hover{
+    color: orangered;
+}
+/*hero section*/
+.hero{
+    background: url("https://picsum.photos/1200/400?travel") centre/cover no-repeat;
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
+}
+.hero h2{
+    font-size: 2.5rem;
+}
+/*Flex Content*/
+.container{
+    display: flex;
+    gap: 20px;
+    padding: 30px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.card{
+    flex: 1;
+    min-width: 250px;
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 10px rgba(red, green, blue, alpha) (0,0,0,0.1);
+    transition: transform 0.3s;
+    
+}
+.card.hover{
+    transform: translateY(-8px);
+}
+
+/*Testimonials*/
+.testimonials{
+    background: #ecf0f1;
+    padding: 40px 20px;
+    text-align: centre;
+}
+.testimonial-container{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.testimonial{
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 280px;
+    box-shadow: 0 3px 8px rgba(red, green, blue, alpha)(0,0,0,0,1);
+    font-style: italic;
+}
+/*call to Action*/
+.cta{
+    background: orange;
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+}
+.cta button{
+    padding: 12px 20px;
+    border: none;
+    background: darkblue;
+    color: white;
+    font-size: 1rem;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+.cta button:hover{
+    background: darkblue;
+}
+/*Gallery*/
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+}
+
+.gallery figure{
+    text-align: center;
+}
+.gallery img{
+    width: 300px;
+    border-radius: 10px;
+    transition: transform 0.3s;
+}
+.gallery img:hover{
+    transform: scale(1.05);
+}
+figcaption{
+    margin-top: 8px;
+    font-size: 0.9rem;
+    color: blueviolet;
+}
+
+/* Travel Quote */
+.quote{
+    background: darkblue;
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+    font-style: italic;
+}
+/*Footer*/
+footer{
+    background:black;
+    color: lightgrey;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+    height: 124px;  
+}
+/*about*/
+.about{
+    background-color:lightskyblue;
+    color: black;
+    font-style: italic;
+    padding: 40px 20px;
+    text-align: center;
+}
